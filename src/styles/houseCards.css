@@ -1,0 +1,124 @@
+.house-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.house-card {
+  min-width: 20%;
+  margin: 5%;
+  height: 340px;
+  flex: 1;
+  border-radius: 10px;
+}
+.top-part {
+  height: 60%;
+  position: relative;
+}
+.house-status {
+  width: fit-content;
+  position: absolute;
+  z-index: 10;
+  font-size: 1rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 8px;
+  color: white;
+
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.status-available {
+  background-color: green;
+}
+
+.status-unavailable {
+  background-color: red;
+}
+.status-booked {
+  background-color: rgb(61, 61, 238);
+}
+
+.house-img-container {
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.house-img {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.bottom-part {
+  width: 100%;
+  height: 40%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.bottom-part-text {
+  margin: 0 5%;
+}
+
+.house-id {
+  color: gray;
+}
+
+.house-name {
+  font-style: italic;
+}
+
+.book-btn {
+  width: 90%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-available {
+  background-color: rgb(61, 61, 238);
+}
+
+.alreadyBooked {
+  color: green;
+}
+
+.btn-unavailable {
+  background-color: rgb(172, 172, 172);
+  cursor: not-allowed;
+}
+
+.available-card:hover {
+  border: rgb(83, 83, 83) 1px solid;
+  box-shadow: 2px 2px 2px 2px rgb(175, 175, 175);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .house-card {
+    min-width: 35%;
+    flex: 1;
+  }
+}
+@media screen and (max-width: 600px) {
+  .house-card {
+    min-width: 50%;
+    flex: 1;
+  }
+}
