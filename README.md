@@ -19,6 +19,14 @@ And only if the status is available on hover the card will have box-shadow.
 
 https://gist.githubusercontent.com/huvber/b51c0279d3f452513a7c1f576a54f4d7/raw/4497a12b181713c6856303a666d240f7d561e4fe/mock-house
 
+# Running the Project
+
+In project directory run :
+```
+npm install 
+npm start
+```
+
 
 # Getting Started with Create React App
 
