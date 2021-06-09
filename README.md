@@ -7,11 +7,13 @@ The status of the house : available , unavailable , booked
 
 in the case that house is
 
-  - Available => a button to book and Only if the status is available on hover the card will have box-shadow.
+  - Available => a button to book 
   
   - Unavailable => a disabled button showing not bookable.
   
   - Booked => information about howmany days it is booked.
+
+And only if the status is available on hover the card will have box-shadow.
   
 # API Information 
 
